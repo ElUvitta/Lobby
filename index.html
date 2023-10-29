@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElUvitta</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>¡Bienvenido a lobby!</h1>
+        <p>Para ir a cualquiera de las áreas, click a la imagen.</p>
+        <div class="galeria">
+            <img id="imagen1" src="img/sin virus mano.png" alt="">
+            <img id="imagen2" src="img/ARABIC GAME OFICIAL.png" alt="">
+            <img id="imagen3" src="img/TIBURONSIN.png" alt="">
+            <img id="imagen4" src="img/TUPANCLAS.png" alt="">
+        </div>
+    </div>
+    
+    <script>
+        // Obtén todas las imágenes por su ID
+        const imagen1 = document.getElementById("imagen1");
+        const imagen2 = document.getElementById("imagen2");
+        const imagen3 = document.getElementById("imagen3");
+        const imagen4 = document.getElementById("imagen4");
+    
+        // Agrega un controlador de clic a cada imagen
+        imagen1.addEventListener("click", function () {
+            window.location.href = "http://eluvitta.pythonanywhere.com"; // Reemplaza "URL_de_la_primera_pagina" con la URL deseada.
+        });
+    
+        imagen2.addEventListener("click", function () {
+            window.location.href = "https://eluvitta.itch.io/arabic-plane-911-game"; // Reemplaza "URL_de_la_segunda_pagina" con la URL deseada.
+        });
+    
+        imagen3.addEventListener("click", function () {
+            window.location.href = "https://eluvitta.itch.io/tiburonsin"; // Reemplaza "URL_de_la_tercera_pagina" con la URL deseada.
+        });
+    
+        imagen4.addEventListener("click", function () {
+            window.location.href = "https://eluvitta.itch.io/las-aventuras-de-tupanclas"; // Reemplaza "URL_de_la_cuarta_pagina" con la URL deseada.
+        });
+    </script>
+    
+
+</body>
+</html>
